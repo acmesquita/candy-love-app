@@ -10,9 +10,12 @@ describe('generateRandomColor', () => {
     expect(item.color).toBe('red')
   })
   test('should return null when call with list invalid', () => {
-    const listItems: Item[] = []
+    const item = generateRandomColor(null)
 
-    const item = generateRandomColor(listItems)
+    expect(item).toBeNull()
+  })
+  test('should return null when call with list without items', () => {
+    const item = generateRandomColor([])
 
     expect(item).toBeNull()
   })
