@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './components/App'
+import App from './pages/App'
 import { listItems } from './factories'
 import './styles/global.css'
 

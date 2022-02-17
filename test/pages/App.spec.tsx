@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { Item } from '../../src/models/item'
-import App from '../../src/components/App'
+import App from '../../src/pages/App'
 
 describe('App', () => {
   test('should render when start correctely', () => {

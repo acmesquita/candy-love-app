@@ -3,7 +3,7 @@ import { Item } from '../models/item'
 import { generateRandomColor } from '../service'
 import { Title, Footer, Container } from '../components'
 
-import style from '../styles/app.module.css'
+import style from '../styles/pages/app.module.css'
 
 type Props = {
   listItems: Item[]
