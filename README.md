@@ -8,3 +8,28 @@ Project basead in https://www.funretrospectives.com/candy-love/
 
 - [x] Generate new random color every round
 - [x] When show new color, show description what its means.
+
+### Technologies
+
+- Typecript
+- Jest
+- Vite
+- @testing-library
+- React
+- @swc
+
+### Getting Started
+
+Install dependences
+
+```bash
+yarn install
+```
+
+Start application
+
+```bash
+yarn dev
+```
+
+Acessar http://localhost:3000
