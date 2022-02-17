@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Item } from '../models/item'
 import { generateRandomColor } from '../service'
-import { Title } from './Title'
+import { Title, Footer } from '../components'
 
 import style from '../styles/app.module.css'
 
@@ -27,7 +27,7 @@ function App({ listItems }: Props) {
         <small className={style.id}>{item?.id}</small>
         <h2>{item?.describe}</h2>
       </div>
-      <footer>Catharina Mesquita - 2022</footer>
+      <Footer />
     </main>
   )
 }
