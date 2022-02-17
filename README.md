@@ -1,8 +1,10 @@
 # Candy Love
 
-https://www.funretrospectives.com/candy-love/
+![Peek 2022-02-17 11-41](https://user-images.githubusercontent.com/15862643/154504848-ea41229a-a712-4d51-88d8-ffc9f4cbed97.gif)
 
-### Funcionlidades
+Project basead in https://www.funretrospectives.com/candy-love/
 
-- [x] Gerar uma cor aleatória a cada rodada
-- [x] Ao exibir uma cor, deve descrever o que ela significa
+### Requirements
+
+- [x] Generate new random color every round
+- [x] When show new color, show description what its means.
