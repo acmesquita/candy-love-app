@@ -14,12 +14,12 @@ export const listItems: Item[] = [
   {
     id: 3,
     color: 'green',
-    describe: 'Seu livro ou filme favorito.'
+    describe: 'Seu livro, filme ou série favorito.'
   },
   {
     id: 4,
     color: 'purple',
-    describe: 'Maneira favorita de se reviver durante o dia de trabalho.'
+    describe: 'Fale como seria o seu dia ideal de trabalho.'
   },
   {
     id: 5,
@@ -30,5 +30,15 @@ export const listItems: Item[] = [
     id: 6,
     color: 'orange',
     describe: 'Sua comida favorita.'
+  },
+  {
+    id: 7,
+    color: 'pink',
+    describe: 'Fale sobre pelo menos um ponto de virtude e um ponto a melhorar.'
+  },
+  {
+    id: 8,
+    color: 'lightcoral',
+    describe: 'Conta uma viagem inesquecível ou a dos sonhos.'
   },
 ]
