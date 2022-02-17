@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Item } from '../models/item'
 import { generateRandomColor } from '../service'
+import { Title } from './Title'
 
 import style from '../styles/app.module.css'
 
@@ -17,7 +18,7 @@ function App({ listItems }: Props) {
 
   return (
     <main className={style.mainWrapper}>
-      <h1 className={style.title}>Candy Love</h1>
+      <Title />
       <div
         className={`${style.container} ${style[item?.color || 'red']}`}
         onClick={newItem}
