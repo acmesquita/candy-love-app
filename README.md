@@ -1,4 +1,6 @@
-# Candy Love
+<h1 align="center">Candy Love</h1>
+
+[![Node.js CI](https://github.com/acmesquita/candy-love-app/actions/workflows/node.js.yml/badge.svg)](https://github.com/acmesquita/candy-love-app/actions/workflows/node.js.yml)
 
 ![Peek 2022-02-17 11-41](https://user-images.githubusercontent.com/15862643/154504848-ea41229a-a712-4d51-88d8-ffc9f4cbed97.gif)
 
